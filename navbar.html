@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="width-device-width, initial-scale=1,shrink-to-fit=no">
+
+	<title>Navbar - Tutorial</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<style type="text/css">
+
+			a.navbar-brand:hover	{
+
+						width: 40px;
+						height: auto;
+					}
+	</style>
+
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+		<!-- d-inline-block = coloca links enfileirados -->
+		<!-- mr auto = espaço automatico entre os links -->
+		<!-- active = deixa  o link acesso -->
+		<!-- Disabled = link apagado -->
+		<!--droptown-menu = div -->
+		<!-- dropdown-item = deixa conteudo do link em cascata-->
+		<!-- * dropdown-toogle = efeito de abrir o menu
+			 * dropdown-divider = cria uma linha que dá espaço entre as opcoes do menu
+			 *campo buscar
+			 	1- fazer um formulario para o naveagador manter os elementos uma na frente do outro
+			 	2 - input type search
+			 	3- form control faz o campo ficar mais arredondado
+			 	4 - mr-sm-2 = deixa um espaço de 2 bits entre o campo e o botão
+			 	5 -  o botao input type submit
+			 	6- classe btn do bootstrap
+			 	7- btn-sucess é um design para o botao
+			 	8 - btn-outline-sucess a linha externa é pintada de verde
+		-->
+
+		<a class="navbar-brand">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Umbrella_Corporation_logo.svg/300px-Umbrella_Corporation_logo.svg.png" style="width: 30px; height: auto;" class="d-inline-block"></a>
+		
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuSanduiche">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+	<div class="collapse navbar-collapse" id="menuSanduiche">
+
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item active">
+				<a class="nav-link">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link">O Hóspede Maldito</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link">Apocalipse</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link">A Extinção</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link">Recomeço</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link">Retribuição</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link">O Capítulo Final</a>
+			</li>
+			<li class="nav-item dropdown">
+				<a href="#" class="nav-link dropdown-toogle"
+				id="navbarDropdown" role="button" data-toggle="dropdown">
+				Animações
+				</a>
+			</li>
+
+			<div class="dropdown-menu">
+				<a class="dropdown-item" href="a.html">4D</a>
+				<a class="dropdown-item" href="a.html">Degeneração</a>
+				<a class="dropdown-item" href="a.html">Condenação</a>
+				<a class="dropdown-item" href="a.html">Vendetta</a>
+			</div>
+		</ul>
+
+		<form class="form-inline">
+			<input type="search" class="form-control mb-2 mr-sm-2" placeholder="Buscar">
+			<button type="submit" class="btn btn-outline-danger">Buscar</button>
+		</form>
+	</nav>
+	</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
