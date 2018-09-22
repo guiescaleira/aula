@@ -1,0 +1,16 @@
+Igor Fernandes
+Guilherme Escaleira
+
+CD desktop - Entrar na área de trabalho
+Mkdir Site - Criar pasta Site
+CD site - entrar na pasta Site
+Git init - Criar repositório
+Git status - verifica situação dos arquivos na pasta
+Git Add - rastrear o arquivo em questão
+Git Status - reverificar a situação do arquivo na pasta
+Git commit -m - gravar arquivo
+git remote add origin https://github.com/guiescaleira/aula.git
+git push origin master - para mandar para o repositorio
+git reset e git revert - para alterar a versão do arquivo
+
+
